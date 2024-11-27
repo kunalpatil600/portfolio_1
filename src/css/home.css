@@ -1,0 +1,359 @@
+body, html {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+.name{
+    font-size: 60px;  
+}
+.avtar{
+    margin-top: -14%;
+    width: 640px;
+    height: 699px;
+}
+
+.spacer{
+    width:100%;
+  height: 384px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    text-transform: uppercase;
+    text-align:center
+     
+  }
+  
+  .spacer > h1{
+    position:absolute;
+    color:#F1DADA;
+    width:500vw;
+    font-size:80px;
+    font-weight:800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F1DADA;
+  }
+  .videohover1{
+    margin: auto;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 38.2%;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+  }
+  
+ 
+   .videohover1:hover{
+    opacity: 1; 
+    
+   }
+  .spacer:hover + .videohover1 {
+    opacity: 1; 
+  }
+ .icondot{
+  background-color: red;
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+ }
+ .dot{
+  width: 100px;
+  height: 100px;
+ }
+.mail{
+  font-size: 70px;
+  color:#F1DADA;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+.mail:hover{
+  color:#FB4566
+}
+.namebox{
+ margin: auto;
+  border-radius: 30px;
+  border: 1px solid rgb(50, 50, 50);
+  margin-top: 10%;
+}
+.button {
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--clr);
+  border-radius: 10rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  padding-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.3s;
+}
+
+.button__icon-wrapper {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  color: var(--clr);
+  background-color: #F1DADA;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #000;
+  overflow: hidden;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+.button:hover .button__icon-wrapper {
+  color: #000;
+}
+
+
+.button__icon-svg--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button:hover .button__icon-svg:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon-svg--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+.video-user{
+  width: 635px;
+  height: 635px;
+  margin: auto;
+  margin-top: -13%;
+  
+}
+.spacer {
+  overflow: hidden; /* Prevent content from spilling outside */
+  position: relative; /* Ensure child elements are contained */
+}
+.home-name{
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+.mail-name{
+  font-size: 31px;
+}
+
+@media (min-width:320px){
+  .home-name{
+    font-size: 28px;
+    text-align: center;
+  }
+  .video-user{
+    width: 318.400px;
+    height: 318.400px;
+    margin-top: 5%;
+    /* margin-left: -3%; */
+   }
+   .mail-name{
+    font-size: 16px;
+  }
+  .mail{
+    font-size: 22px;
+  }
+  #scrollingText, #scrollingText2, #scrollingText3, #scrollingText4 {
+    font-size: 30px; /* Adjust font size */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden;    /* Hide any overflow */
+    display: block;      /* Ensure proper alignment */
+  
+  }
+  .dot {
+    width: 35px;
+    height: 35px;
+  }
+  .spacer{
+    width:100%;
+  height: 85px;
+     
+  }
+.videohover1 video{
+  width: 140px;
+  height: 140px;
+  margin-top: -30%;
+  /* margin-left: -14%; */
+}
+ 
+}
+@media(min-width:480px){
+  .home-name{
+    font-size: 34px;
+  }
+  .video-user{
+    width: 350.400px;
+    height: 350.400px;
+   }
+   
+  #scrollingText, #scrollingText2, #scrollingText3, #scrollingText4 {
+    font-size: 50px; /* Adjust font size */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden;    /* Hide any overflow */
+    display: block;      /* Ensure proper alignment */
+  }
+  .dot {
+    width: 50px;
+    height: 50px;
+  }
+  .spacer{
+    width:100%;
+  height: 120px;
+     
+  }
+.videohover1 video{
+  width: 200px;
+  height: 200px;
+  margin-top: -30%;
+  /* margin-left: -14%; */
+}
+}
+
+@media (min-width:576px){
+ .video-user{
+  width: 318px;
+  height: 318px;
+  margin-top: 5%;
+ 
+ }
+ .name{
+  font-size: 35px;  
+}
+.mail{
+  font-size: 41px;
+  color:#F1DADA
+}
+.mail-name{
+  font-size: 20px;
+}
+#scrollingText, #scrollingText2, #scrollingText3, #scrollingText4 {
+  font-size: 60px; /* Adjust font size */
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden;    /* Hide any overflow */
+  display: block;      /* Ensure proper alignment */
+
+}
+.button{
+  font-size: 16px;
+}
+
+.dot {
+  width: 60px;
+  height: 60px;
+}
+.spacer{
+  width:100%;
+height: 200px;
+   
+}
+/* .videohover1 video{
+  width: 170px;
+  height: 170px;
+  margin-top: -20%;
+} */
+
+}
+@media (min-width:768px) {
+
+  .home-name{
+    font-size: 60px;
+  }
+  .dot {
+    width: 90px;
+    height: 90px;
+  }
+  .videohover1 video{
+    width: 250px;
+    height: 250px;
+    margin-top: -20%;
+  }
+}
+@media (min-width:992px) {
+  .mail{
+    font-size: 65px;
+  }
+  .mail-name{
+    font-size: 30px;
+  }
+  #scrollingText, #scrollingText2, #scrollingText3, #scrollingText4 {
+    font-size: 70px; /* Adjust font size */
+  }
+  .videohover1 video{
+    width: 320px;
+    height: 320px;
+    margin-top: -12%;
+  }
+}
+@media(min-width:1200px){
+  #scrollingText, #scrollingText2, #scrollingText3, #scrollingText4 {
+    font-size: 80px; /* Adjust font size */
+  }
+  
+  .dot {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .videohover1 video{
+    width: 380px;
+    height: 380px;
+    margin-top: -12%;
+  }
+  .spacer{
+    width:100%;
+  height: 300px;
+     
+  }
+  
+}
+@media (min-width:1400px) {
+  .video-user{
+    width: 554px;
+    height: 554px;
+   
+  }  
+  .home-name{
+    margin-top: 30%;
+  }
+  .name{
+    font-size: 60px;  
+}
+.videohover1 video{
+  width: 380px;
+  height: 380px;
+  margin-top: -2%;
+} 
+
+}
+@media (min-width:1496px) {
+  .video-user{
+    width: 635px;
+    height: 635px;
+    margin-top: -5%;
+  }  
+ .namebox{
+  height: 560px;
+ }
+ .videohover1 video{
+  width: 380px;
+  height: 380px;
+  margin-top: 5%;
+}
+
+.dot {
+  width: 100px;
+  height: 100px;
+}
+
+}
