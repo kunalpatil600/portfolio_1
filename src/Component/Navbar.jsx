@@ -19,12 +19,12 @@ const Navbar = () => {
         <span class="btn-text-two fs-5 fs-sm-6 fw-bold">Home</span>
       </button>
       </Link>
-      <Link className='text-white' to={"/Work"}><button class="btn">
+      <Link className='text-white' to={"/work"}><button class="btn">
         <span class="btn-text-one fs-5 fw-bold">Work</span>
         <span class="btn-text-two fs-5 fw-bold">Work</span>
       </button>
       </Link>
-      <Link className='text-white' to={"/About"} ><button class="btn">
+      <Link className='text-white' to={"/about"} ><button class="btn">
         <span class="btn-text-one fs-5 fw-bold">About</span>
         <span class="btn-text-two fs-5 fw-bold">About</span>
       </button>
