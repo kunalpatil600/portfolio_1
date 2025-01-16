@@ -41,6 +41,7 @@ const Footer = () => {
   Linkdin
 </button>
 </Link> 
+<Link to={"https://acrobat.adobe.com/id/urn:aaid:sc:ap:b7bfdaeb-b666-41c6-bbc9-3735184aee4e"}>
 <button href="#" class="button mb-5 "  style={{color:"#F1DADA"}}>
   <span class="button__icon-wrapper">
     <svg
@@ -69,7 +70,7 @@ const Footer = () => {
   </span>
  Download CV
 </button>
-
+</Link>
       </div>
       <div className="d-sm-flex text-center col-11 m-auto mt-5 pb-3 justify-content-between" style={{color:"#F1DADA"}}>
     <p>  ©2024 Kunal p.</p>
