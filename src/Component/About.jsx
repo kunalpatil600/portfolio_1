@@ -71,14 +71,7 @@ const About = () => {
         <h1 className='about-skill'>Web Development</h1>
           <li><p>Front-end Devlopment</p></li>
           <li><p>Back-end Devlopment</p></li>
-        </ul>
-        <ul className=' about-dev'>
-        <h1 className='about-skill'>VFX</h1>
-          <li><p>Blender</p></li>
-        
-        </ul>
-        
-      </div>
+        </ul></div>
      </div>
      <div className="d-flex col-11 m-auto">
        <p style={{color:"#978788"}} className='fs-5 ms-3'>About</p> <hr className='col-sm-9 col-8 col-lg-10 col-xl-11 ms-5' />
